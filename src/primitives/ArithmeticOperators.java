@@ -2,59 +2,30 @@ package primitives;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {
-        // addition +
-        int num1 = 3;
-        int num2 = 4;
-        System.out.println("total is:"+ (num1+num2));
-        System.out.println(num1+num2);
+        int number = 10;
+        int num = number + 5;
+        System.out.println(num);
 
-        int sum = num1 + num2;
-        System.out.println(sum);
+        int num1 = num/3;
+        System.out.println(num1);
 
-        //subtraction -
-        int diference;
-        diference = 10-num2;
-        System.out.println("diference is = " + diference);
+        long ln = 100-num1;
+        System.out.println(ln);
 
-        // multiplace *
-        double product = diference * num2;
-        System.out.println(product);
+        long longNum = 5*9;
+        System.out.println(longNum);
 
-        //division /
-        double division = product / 3.0;
-        System.out.println(division);
+        //% --> Remainder
+        int appleNumber = 15%10; //10+5
+        System.out.println(appleNumber);
 
-        product = product * division;
-        System.out.println(product);
+        long orangeNumver = 45%11; //11+11+11+11+1
+        System.out.println(orangeNumver);
 
-        int divition2 = 17/2;
-        System.out.println(divition2);
+        int result = 10+5*2-5/3; // 10 + 10 - 1
+        System.out.println(result);
 
-        double divition3 = 5/2;
-        System.out.println(divition3);
-
-        float divition4 = 5/2f;
-        System.out.println(divition4);
-
-        float divition5 = num2/num1;
-        System.out.println(divition5);
-
-        //remainder left over % (Modules) operator
-        int a = 11;
-        int b = 5;
-        int ramainder1 = a % b;
-        System.out.println("The left over of 511/5 = " +ramainder1);
-
-        int x = 13;
-        int y = 5;
-        int remainder2 = x%y;
-        System.out.println(remainder2);
-        System.out.println(25%21);
-        System.out.println(25 % x);
-
-        int result = a+b*x-y/a*b+x%2;
-
-
-
+        int result1 = (10+5)*(2-5)/3; // 15 * -3 / 3 = - 45 * / 3 = -15
+        System.out.println(result1);
     }
 }
