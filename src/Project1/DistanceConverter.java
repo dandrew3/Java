@@ -3,12 +3,11 @@ package Project1;
 public class DistanceConverter {
     public static void main(String[] args) {
 
-        float oneInch = 1;
-        float INCH = 2000.0f;
-        float meter = oneInch*0.0254f;
-        float totalMeters = meter*INCH;
 
-        System.out.println(INCH + " inch is " + totalMeters + " meters");
+        double INCH = 2000.00;
+        double convertedMeter = INCH * 0.0254;
+
+        System.out.println(INCH + " inch is " + convertedMeter + " meters");
 
     }
 }

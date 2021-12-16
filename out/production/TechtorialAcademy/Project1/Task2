@@ -1,0 +1,11 @@
+Difference between JRE, JDK, JVM
+JRE stands for Java Runtime Environment which we usually download as a Java software. The JRE
+consists of the Java Virtual Machine, Java platform classes, and supporting libraries. The JRE is the
+runtime component of Java software and is all we need to run any Java application.
+
+JDK stands for Java Development Kit is a superset of the JRE and includes everything that the JRE contains.
+Additionally, it comes with the compilers and debuggers tools required for developing Java applications.
+
+JVM stands for Java Virtual machine. It translates and executes the Java bytecode. It's the entity
+which transforms Java to become a "portable language" (i.e. write once, run anywhere). Java compiler
+generates bytecode for all the Java code and converts into class files.
